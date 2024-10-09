@@ -1,0 +1,57 @@
+body {
+    background-color: black;
+    font-family: Roboto;
+}
+.post {
+    border: 2px solid green;
+    width: 33%;
+    margin: auto;
+    background-color: white;
+    padding: 2px;
+}
+
+.post-header, .post-icons {
+    border: 2px solid red;
+    display: block; /* si cambio a display a block la alineación a la derecha funciona
+                    en post-icons y no en post-header*/
+        
+}    
+
+.post-header p {
+    font-size: x-small;
+    display: inline-block;
+    margin: 0;
+
+}  
+
+p{
+    font-size: small;
+    padding: 2px;
+    margin-block: 0;
+    
+}
+
+i {
+    font-size: 25px;
+    padding: 2px;
+    }
+
+
+.post-body p {
+    border: 2px solid purple;
+}
+
+
+img {
+    width: 100%;
+
+}
+
+#HTML {
+    height: 21px;
+    width: 41px;
+}
+
+#ellipsis, #bookmark {
+    float: right;
+}

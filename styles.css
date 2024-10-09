@@ -10,9 +10,8 @@ body {
 }
 
 .post-header, .post-icons {
-    display: block; /* si cambio a display a block la alineación a la derecha funciona
-                    en post-icons y no en post-header*/
-        
+    display: flex;
+    justify-content: space-between;    
 }    
 
 .post-header p {
